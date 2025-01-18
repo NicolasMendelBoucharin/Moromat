@@ -42,6 +42,7 @@ main {
     margin: auto;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position:relative
 }
 
 h1, h2 {
