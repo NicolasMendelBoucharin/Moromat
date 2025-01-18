@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "Accès protégé"
-AuthUserFile /miscelanous/.htpasswd
-require valid-user
-
