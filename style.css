@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 header {
@@ -43,10 +46,12 @@ header nav ul li a:hover {
 main {
     padding: 20px;
     max-width: 800px;
-    margin: 80px auto 0; /* Adjust margin-top to avoid overlap with fixed header */
+    margin: 100px auto 0; /* Adjust margin-top to avoid overlap with fixed header */
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding-bottom: 80px; /* Augmenter le padding-bottom pour éviter le chevauchement */
+    flex: 1;
+    overflow-y: auto;
 }
 
 h1, h2 {
